@@ -22,6 +22,8 @@ Folge diesen Schritten, um die Anwendung lokal zu installieren:
 git clone https://github.com/BitteKlick/SPA-Bookshelf.git
 cd SPA-Bookshelf
 
+(oder installiere die .zip)
+
 ### 2. Installiere die Abhängigkeiten für den Server
 
 Wechsle in das Server-Verzeichnis und installiere die Abhängigkeiten:
