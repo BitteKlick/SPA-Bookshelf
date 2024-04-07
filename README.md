@@ -1,8 +1,12 @@
 # SPA-Bookshelf
 
 Diese Single Page Application, "SPA-Bookshelf", ist eine Sammlung von Informationen über Bücher, die ich gerade lese oder gelesen habe, und meine Meinungen dazu. Man findet zum Beispiel die Kategorie "Home", in der alle anderen Kategorien erklärt werden, wie "Bookshelf", in der ich einige meiner Bücher aufgelistet habe, "Recommendations", wo ich gute Bücher vorschlage, "Reviews", wo meine Goodreads-Rezensionen stehen (selbst eingesetzt, nicht automatisch), oder "Tropes", wo drei Tropes in der Literatur gelistet sind, die ich besonders mag, sowie "Authors", wo ich zwei Autoren empfehle.
+
 Diese SPA dient mehr mir selbst als ein nettes persönliches Projekt, das ich zukünftig erweitern könnte. Ich hoffe, als Abgabe zum Projekt zeigt sie, dass ich mich mit dem Thema beschäftigt habe. 
-Die Kategorie "Current Reads" ist die einzige, die auf den Server zugreift, da ich testen wollte, wie das Backend funktioniert, und das war die letzte Komponente, die ich zu programmieren hatte.
+
+Die Kategorie "Current Reads" ist die einzige, die auf den Server zugreift und somit das Backend benötigt.
+
+Aufgrund der Menüleiste, welche das einzige übergreifende und unter "App.js" programmierte Element ist, erkenne ich "Home", eine der "components", als Unterseite an.
 
 Hier ist die Erklärung zur Installierung:
 
