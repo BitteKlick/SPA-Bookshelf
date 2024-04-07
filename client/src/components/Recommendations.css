@@ -1,0 +1,52 @@
+/* Grundlayout */
+.recommendations {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.recommendations h1 {
+  color: #8B0000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* books box */
+.books {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.bookCard {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  background-color: #FAF9F6;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.bookCard img {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.bookInfo {
+  flex: 1;
+  padding: 20px;
+}
+
+.bookInfo h2, .bookInfo h3 {
+  color: #5D4037;
+  margin: 0 0 10px 0;
+}
+
+.bookInfo p {
+  color: #333;
+  font-size: 16px;
+}  

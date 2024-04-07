@@ -1,0 +1,106 @@
+/* Hauptkörper- und Text-Styling */
+body {
+  background-color: #FAF9F6;
+  color: #5D4037;
+  font-family: 'Merriweather', serif;
+}
+
+/* Navigationsleiste-Styling */
+nav {
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+nav ul li {
+  margin: 0 15px;
+  position: relative;
+}
+
+/* Trennlinien zwischen den Navigationslinks */
+nav ul li:not(:last-child):after {
+  content: '';
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  width: 1px;
+  background-color: #ddd;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #8B0000;
+  font-weight: 500;
+  padding: 10px;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #006400;
+  text-decoration: none;
+}
+
+/* Responsive Design-Regeln */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    height: auto;
+  }
+
+  nav ul li:not(:last-child):after {
+    content: none;
+  }
+}
+
+/* Allgemeines Container-Styling */
+.container {
+  padding: 20px;
+}
+
+/* Überschriften-Styling */
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Button-Styling */
+.button {
+  background-color: #8B0000;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.button:hover {
+  background-color: #006400;
+}
+
+/* Karten-Styling */
+.card {
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.card h3 {
+  color: #5D4037;
+}

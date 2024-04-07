@@ -1,0 +1,41 @@
+/* Grundlayout */
+.reviews {
+padding: 20px;
+max-width: 1000px;
+margin: auto;
+}
+
+.reviews h1 {
+color: #8B0000;
+text-align: center;
+margin-bottom: 20px;
+}
+
+/* Suchleiste */
+.searchInput {
+display: block;
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+/* Review Box */
+.reviewCard {
+background-color: #FAF9F6;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.reviewCard h2 {
+color: #5D4037;
+margin-bottom: 10px;
+}
+
+.reviewCard p {
+color: #333;
+font-size: 16px;
+}
