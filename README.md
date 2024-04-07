@@ -11,6 +11,7 @@ Hier ist die Erklärung zur Installierung:
 Bevor du beginnst, stelle sicher, dass du folgende Software installiert hast:
 
 Node.js (mindestens Version 12.x)
+
 npm (wird mit Node.js installiert)
 
 ## Installation
@@ -20,7 +21,9 @@ Folge diesen Schritten, um die Anwendung lokal zu installieren:
 ### 1. Klone das Repository
 
 git clone https://github.com/BitteKlick/SPA-Bookshelf.git
+
 cd SPA-Bookshelf
+
 
 (oder installiere die .zip)
 
@@ -29,6 +32,7 @@ cd SPA-Bookshelf
 Wechsle in das Server-Verzeichnis und installiere die Abhängigkeiten:
 
 cd server
+
 npm install
 
 ### 3. Installiere die Abhängigkeiten für den Client
@@ -36,6 +40,7 @@ npm install
 Wechsle in das Client-Verzeichnis und installiere die Abhängigkeiten:
 
 cd ../client
+
 npm install
 
 ## Starten der Anwendung
